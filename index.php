@@ -91,7 +91,7 @@ else{
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <form action="/CRUDPHP/index.php" method="POST">
+        <form action="/CRUDPHP/phpcrud/index.php" method="POST">
           <div class="modal-body">
             <input type="hidden" name="snoEdit" id="snoEdit">
             <div class="form-group">
