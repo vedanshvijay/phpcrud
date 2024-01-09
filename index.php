@@ -91,7 +91,7 @@ else{
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <form action="/CRUDPHP/phpcrud/index.php" method="POST">
+        <form action="phpcrud/index.php" method="POST">
           <div class="modal-body">
             <input type="hidden" name="snoEdit" id="snoEdit">
             <div class="form-group">
@@ -172,7 +172,7 @@ else{
   ?>
   <div class="container my-4">
     <h2>Add a Note to iNotes</h2>
-    <form action="/CRUDPHP/index.php" method="POST">
+    <form action="/phpcrud/index.php" method="POST">
       <div class="form-group">
         <label for="title">Note Title</label>
         <input type="text" class="form-control" id="title" name="title" aria-describedby="emailHelp">
@@ -262,7 +262,7 @@ else{
 
         if (confirm("Are you sure you want to delete this note!")) {
           console.log("yes");
-          window.location = `/CRUDPHP/index.php?delete=${sno}`;
+          window.location = `/phpcrud/index.php?delete=${sno}`;
           // TODO: Create a form and use post request to submit a form
         }
         else {
